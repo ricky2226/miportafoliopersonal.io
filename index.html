@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="Contador.html">
+        <link rel="stylesheet" href="contador.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+            <div class="ico">ES</div>
+                <a href="#">Sebastian</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/WhatsApp Image 2025-01-23 at 09.33.02.jpeg" alt="">
+            </div>
+            <h1>Sebastian Ricardo Alberto Espindola</h1>
+            <h2>Informacion Personal</h2>
+            <div class="redes">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+                <a href="https://instagram.com/espindolasebastian26" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/5493435304073" target="_blank"><i class="bi bi-whatsapp"></i></i></a>
+                <a href="mailto:sebaricardo59@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/sebastian-ricardo-alberto-espindola-4929b1168" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/sebastianricardo.espindola" target="_blank"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sebastian Espindola.</span>
+                Mi trayectoria profesional se ha desarrollado en diversos sectores y roles, lo que
+                me ha permitido adquirir competencias y conocimientos valiosos para enfrentar
+                desafíos y asumir responsabilidades en distintos ámbitos. Me interesa formar
+                parte de la empresa y aportar mis capacidades y experiencia al equipo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            26-01-1984
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3435304073
+                        </li>
+                        <li>
+                              <strong>Website</strong>
+                              https://gentle-lollipop-d3a0f2.netlify.app/
+                            </li>
+                        <li>
+                            <strong>Email</strong>
+                            sebaricardo59@gmail.com
+                        </li>
+                        <li>
+                            
+                            <strong>Dirección</strong>
+                           Parana Entre Rios, Argentina
+                        </li>
+                        <li>
+                           
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="CV__Sebastian_Espindola_230621_123734.pdf" download class="btn btn= =download"> Descargar CV</a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Powerpoint</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>59%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Word</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Nivel Primario</h4>
+                        <span class="casa">: Escuela Primaría N° 197, Héroes de Malvinas,</span>
+                        <span class="fecha">1990 - 1997</span>
+                        <p>Paraná, Entre Ríos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Nivel Secundario</h4>
+                        <span class="casa">Escuela Secundaría José Martí, Paraná Entre Ríos -</span>
+                        <span class="fecha">2001 - 2005</span>
+                        <p>Título de Bachiller en Orientación en Dibujo Publicitario. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>FORMACIÓN COMPLEMENTARIA</h4>
+                        <span class="casa">Auxiliar en Farmacia – Unidad Popular Elio C. Leyes de Paraná</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Responsable de asistir en la dispensación de medicamentos y productos
+                            farmacéuticos.Brindé apoyo en el mantenimiento de los inventarios y en la gestión de pedidos.
+                            Interactué con los clientes, proporcionando información sobre los productos y
+                            ofreciendo recomendaciones según las indicaciones del farmacéutico a cargo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programa Diplomado Administrativo Digital</h4>
+                        <span class="casa">Duración: 40 horas - Certificado por Universidad de Buenos Aires, Facultad de Ciencias Economicas-</span>
+                        <span class="fecha">12/11/2019</span>
+                        <p>Amplié mis conocimientos en administración digital, incluyendo herramientas y
+                            técnicas para la gestión eficiente de procesos administrativos.
+                            Desarrollé habilidades en el uso de software y herramientas digitales para
+                            optimizar la productividad y la toma de decisiones.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Control de Admisión y Permanencia</h4>
+                        <span class="casa">Ley Provincial N° 10517 - Adhesión Ley Nacional N° 4208751
+                            Paraná, </span>
+                        <span class="fecha">Diciembre 2019</span>
+                        <p>Realicé labores de control y supervisión de la admisión y permanencia en un
+                            establecimiento, garantizando el cumplimiento de las normas de seguridad y
+                            bienestar de los clientes.
+                            Aplicación de protocolos de seguridad y resolución de conflictos para mantener
+                            un ambiente seguro y ordenado.
+                            Participación en Jornada de RCP (Reanimación Cardiopulmonar) con manejo de
+                            DEA (Desfibrilador Externo Automático), obstrucción de vía aérea y prácticas
+                            profesionalizantes, bajo las normativas vigentes de la Ley de Control, Admisión
+                            y Permanencia.
+                             </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Cargo: Operario – Auxiliar</h4>
+                        <span class="casa">NEXO S.A.</span>
+                        <span class="fecha">2015 - 2023</span>
+                        <p>Funciones: Como albañil en NEXO S.A., mi función principal era llevar a cabo diversas
+                            tareas relacionadas con la construcción y mantenimiento de estructuras.
+                            Referencias: Ramiro Botta. Recursos Humanos. Nexo Aberturas.Tel. 343-4261800 rrhh@nexo-aberturas.com.ar</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Cargo: Operario – Auxiliar</h4>
+                        <span class="casa">CARTOCOR S.A.</span>
+                        <span class="fecha">2006 - 2007</span>
+                        <p>Funciones: Durante un mes, desempeñé el cargo de operador de pegado manual en
+                            la planta. Posteriormente, asumí el rol de operador de la impresora W 1600, encargado
+                            de la paletización, durante tres meses. Al finalizar ese periodo, fui promovido a la
+                            posición de 3er ayudante en el equipo de dicha máquina.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Control de Admisión y Permanencia</h4>
+                        <span class="casa">Controlador de eventos privados</span>
+                        
+                        <p>Funciones: Mi objetivo principal es garantizar la seguridad y el bienestar de los clientes
+                            y el personal del establecimiento. Poseo habilidades efectivas de observación,
+                            comunicación y resolución de conflictos, lo que me permite mantener un ambiente
+                            seguro y agradable para todos.
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Wolverine-SEBA.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/zombie.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                   </div>
+                    <div class="proyecto">
+                    <img src="img/sedita.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                     </div>
+                     <div class="proyecto">
+                        <img src="img/shane-baxley-1l2akjb-copy.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                         </div>
+
+                      <div class="proyecto">
+                    <img src="img/Certificado_page-0001.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/scorpion.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fffssssssss.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/CARTA.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <form class="form=registers"
+     action="https://formspree.io/f/xdknrven"
+    method="post">
+    
+    <input class="controls" type ="text"  name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type ="text"  name="apellidos" id="apellidos" placeholder="Ingrese su Apellidos">
+    <input class="controls" type ="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <textarea class="controls" name="message" cols="30" rows="10" placeholder="Asunto"></textarea>
+    <input class="botons" type="submit" value="ENVIAR">
+     </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/Captura de pantalla 2024-09-12 195920.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Parana, Entre Rios
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 3435304073
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: sebaricardo59@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+     
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://instagram.com/espindolasebastian26" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/5493435304073" target="_blank"><i class="bi bi-whatsapp"></i></i></a>
+            <a href="mailto:sebaricardo59@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/sebastian-ricardo-alberto-espindola-4929b1168" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/sebastianricardo.espindola" target="_blank"><i class="bi bi-facebook"></i></a>
+            <br>
+           <audio  autoplay controls loop>
+           <source src="audio/mix_28m08s (audio-joiner.com).mp3" type="audio/mpeg">
+           <source src="audio/mix_28m08s (audio-joiner.com).ogg" type="audio/ogg">
+           <source src="audio/mix_28m08s (audio-joiner.com).wav" type="audio/wav">
+  
+           </audio>
+           </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="visitas-card">
+        <div class="visitas-count" id="visitas">0</div>
+        <div class="visitas-text">Visitas</div>
+        <!-- Botón para reiniciar el contador -->
+        <button class="reset-button" onclick="reiniciarContador()">Reiniciar</button>
+    </div>
+
+
+<script src="contador.js"></script>
+</body>
+</html>
